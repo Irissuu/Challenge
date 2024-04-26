@@ -115,3 +115,18 @@
     color: #000000; 
 }
 
+.desc-servicos {
+    position: absolute;
+        top: 208px;
+        left: 92px;
+        font-size: 30px;
+        color: #ffffff;
+}
+
+.servicos1 {
+    position: absolute;
+    top: 103px;
+    left: 92px;
+    font-size: 60px;
+    color: #ffffff; 
+}
