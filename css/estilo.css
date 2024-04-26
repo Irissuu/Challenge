@@ -30,3 +30,84 @@
     width: 100%;
     height: 457px;
 }
+.desc-menu {
+    position: absolute;
+    top: 208px;
+    left: 92px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.porto-angel {
+    position: absolute;
+    top: 103px;
+    left: 92px;
+    font-size: 60px;
+}
+
+.caixa-angelita {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 55px;
+    background-color: #ffffff;
+    width: 324px;
+    height: 220px;
+}
+
+.desc-angeita {
+    position: absolute;
+    top: 77px;
+    left: 12px;
+    display: inline-block;
+    width: 299px;
+}
+
+.angelita {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    font-size: 40px;
+    color: #237b9f; 
+}
+
+.caixa2 {
+    position: absolute;
+    top: 680px;
+    left: 55px;
+    width: 324px;
+    height: 220px;
+    color: #000000;
+}
+
+.desc-servicos {
+    position: absolute;
+    top: 77px;
+    left: 15px;
+    display: inline-block;
+    width: 299px;
+}
+
+.caixa1 {
+    position: absolute;
+    top: 429px;
+    left: 55px;
+    width: 324px;
+    height: 220px;
+    color: #000000;
+}
+
+.desc-plano {
+    position: absolute;
+    top: 82px;
+    left: 0px;
+    display: inline-block;
+    width: 695px;
+}
+
+.sobre-plano {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 40px;
+    color: #237b9f; }
