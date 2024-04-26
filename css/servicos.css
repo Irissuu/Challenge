@@ -130,3 +130,28 @@
     font-size: 60px;
     color: #ffffff; 
 }
+
+.texto {
+    position: absolute;
+    top: 962px;
+    left: 95px;
+    font-size: 30px;
+    color: #ffffff; 
+}
+
+.seta-servico-icon {
+    position: absolute; 
+    top: 954px; 
+    left: 18px; 
+    width: 65px; 
+    height: 60px; 
+    object-fit: cover; 
+}
+
+.voltar-servico {
+    position: absolute; 
+    top: 954px; 
+    left: 18px; 
+    width: 315px; 
+    height: 60px; 
+}
