@@ -75,3 +75,44 @@
     font-size: 25px; 
     color: #000000; 
 }
+.angelita1 {
+    position: absolute; 
+    top: 101px; 
+    left: 93px; 
+    font-size: 70px; 
+    color: #ffffff;
+}
+
+.desc-angelita {
+    position: absolute; 
+    top: 208px;
+    left: 92px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+
+.texto {
+    position: absolute; 
+    top: 8px; 
+    left: 80px; 
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.left-2-icon {
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    width: 65px; 
+    height: 60px; 
+    object-fit: cover; 
+}
+
+.voltar-angelita {
+    position: absolute; 
+    top: 954px; 
+    left: 18px; 
+    width: 315px; 
+    height: 60px; 
+}
