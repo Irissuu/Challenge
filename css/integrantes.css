@@ -85,11 +85,11 @@ main {
     margin: 0 10px; 
 }
 
-footer {
+footer, a {
     text-align: center;
     margin-top: 200px;
+    font-size: 30px;
+    color: #237b9f;
+    font-style: bold;
 }
 
-footer p {
-    font-size: 20px;
-}
