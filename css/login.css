@@ -65,3 +65,15 @@
     margin-bottom: 10px;
     border-radius: 5px;
   }
+
+  .login-box h2 {
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .login-box input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
