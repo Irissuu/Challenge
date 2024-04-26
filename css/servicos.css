@@ -93,3 +93,25 @@
     font-size: 30px; 
     text-align: center;
 }
+
+.assistencia-servico {
+    position: absolute; 
+    top: 20px; 
+    right: 98.83px; 
+    font-size: 40px; 
+    color: #237b9f; 
+    text-align: center; 
+    width: 50%; 
+    height: 50%; 
+}
+
+.assistencia-tecnica {
+    position: absolute; 
+    top: 409px; 
+    left: 0px; 
+    border-radius: 55px; 
+    width: 50%; 
+    height: 50%; 
+    color: #000000; 
+}
+
