@@ -9,4 +9,11 @@
 
 ## Integrantes e dados
 > [!NOTE]
-> texto
+> Nome: Iris Tavares Alves
+> RM: 557728 Turma: 1TDSPM
+> 
+> Nome: Mirela Pinheiro Silva Rodrigues
+> RM: 558191 Turma: 1TDSPM
+> 
+> Nome: Taís Tavares Alves
+> RM: 557553 Turma: 1TDSPM
