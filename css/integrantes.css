@@ -38,3 +38,21 @@ main {
     margin-top: 20px;
     background-color: #e7f1f2;
 }
+.member {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 360px; 
+    height: 360px;
+}
+
+.member-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+}
