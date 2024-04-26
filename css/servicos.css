@@ -55,3 +55,22 @@
     height: 50%; 
 }
 
+.emergencia {
+    position: absolute; 
+    top: 409px; 
+    left: 50%; 
+    width: 50%;
+    height: 50%;
+}
+
+.caixa-emergencia-servico {
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    border-radius: 55px; 
+    background-color: #ffffff; 
+    width: 70%; 
+    height: 491px;
+    display: flex; 
+}
+
