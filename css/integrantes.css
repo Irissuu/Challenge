@@ -20,3 +20,21 @@ header {
     padding: 100px 0;
     text-align: center;
 }
+header img {
+    max-width: 150px;
+    height: auto;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+    background-color: #e7f1f2;
+}
