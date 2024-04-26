@@ -74,3 +74,22 @@
     display: flex; 
 }
 
+.caixa-assistencia-servico {
+    top: 10px; 
+    right: 10px; 
+    border-radius: 55px; 
+    background-color: #ffffff; 
+    width: 70%; 
+    height: 491px; 
+}
+
+.desc-assistencia-servico {
+    position: absolute; 
+    top: 70px; 
+    right:100px;; 
+    width: 50%; 
+    height: 50%; 
+    color: #000000;
+    font-size: 30px; 
+    text-align: center;
+}
