@@ -111,3 +111,41 @@
     left: 0px;
     font-size: 40px;
     color: #237b9f; }
+
+
+.plano {
+    position: absolute;
+    top: 431px;
+    left: 560px;
+    width: 695px;
+    height: 424px;
+    color: #000000;
+}
+
+.nosso-site {
+    position: absolute;
+    top: 962px;
+    left: 95px;
+    font-size: 30px;
+    color: #ffffff; 
+}
+
+.nosso-site a {
+    color: #ffffff; 
+}
+
+
+.menu {
+    width: 100%;
+    position: relative;
+    background-color: #e7f1f2;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.servicos a, .angelita a {
+    color: #237b9f; 
+}
