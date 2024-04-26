@@ -1,6 +1,6 @@
 # Challenge
 
-## Projeto para Porto Seguro
+## Projeto Angel
 
 > [!NOTE]
 > Oferecendo um canal digital ágil e assertivo no diagnóstico do problema de um veículo sem a intervenção humana.
