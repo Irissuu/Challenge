@@ -1,0 +1,118 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.rodape-angelita {
+    position: absolute; 
+    top: 945px; 
+    left: 0px; 
+    background-color: #13293e; 
+    width: 100%;
+    height: 79px;
+}
+
+
+.faixa-angelita {
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    background-color: #237b9f; 
+    width: 100%;; 
+    height: 50%; 
+}
+
+
+.faixa-angelita1 {
+    position: absolute; 
+    top: 376px;
+    left: 0px;
+    background-color: #e7f1f2; 
+    width: 100%; 
+    height: 570px;
+}
+.caixa {
+    position: absolute; 
+    top: 33px; 
+    left: 4px; 
+    border-radius: 37px; 
+    background-color: #ffffff; 
+    width: 1298px; 
+    height: 505px; 
+    display: none; 
+}
+
+
+.info-angelita {
+    position: absolute; 
+    top: 80px; 
+    left: 0px; 
+    display: inline-block; 
+    width: 1058px; 
+    height: 81px; 
+}
+
+.assistente-chatbot {
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    font-size: 40px; 
+    display: inline-block; 
+    color: #237b9f; 
+    width: 718.8px; 
+    height: 80.1px; 
+}
+
+.caixa-angelita {
+    position: absolute; 
+    top: 389px; 
+    left: 72px; 
+    width: 1058px; 
+    height: 161px;
+    font-size: 25px; 
+    color: #000000; 
+}
+.angelita1 {
+    position: absolute; 
+    top: 101px; 
+    left: 93px; 
+    font-size: 70px; 
+    color: #ffffff;
+}
+
+.desc-angelita {
+    position: absolute; 
+    top: 208px;
+    left: 92px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+
+.texto {
+    position: absolute; 
+    top: 8px; 
+    left: 80px; 
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.left-2-icon {
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    width: 65px; 
+    height: 60px; 
+    object-fit: cover; 
+}
+
+.voltar-angelita {
+    position: absolute; 
+    top: 954px; 
+    left: 18px; 
+    width: 315px; 
+    height: 60px; 
+}
