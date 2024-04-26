@@ -4,3 +4,19 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7f1f2;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #00a1fc;
+    padding: 100px 0;
+    text-align: center;
+}
