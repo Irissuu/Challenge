@@ -9,7 +9,7 @@
 
 ## Inicio!
 > [!NOTE]
-> Comece pelo arquivo de login
+> Comece pelo arquivo de login!
 
 ## Integrantes e dados
 > [!NOTE]
