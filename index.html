@@ -1,44 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Menu</title>
-    <link rel="stylesheet" href="./css/estilo.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="menu">
-      <div class="rodape-menu"></div>
-      <div class="faixa-azul-menu"></div>
-      <div class="faixa-cinza-menu"></div>
-      <div class="desc-menu">Aplicativo Revolucionário para Motoristas</div>
-      <b class="porto-angel">Porto Angel</b>
-      <div class="caixa2">
-        <div class="caixa-angelita"></div>
-        <div class="desc-angeita">Converse com nossa assistente virtual!</div>
-        <b class="angelita"><a href="./angelita.html">Angelita</a></b>
+    <header>
+      <div class="logo-container">
+        <img src="./img/icon.png" alt="Icone porto angel" class="logo-image" />
+        <h2 class="logo">Porto Angel</h2>
       </div>
-      <div class="caixa1">
-        <div class="caixa-angelita"></div>
-        <div class="desc-servicos">Conheça nossos serviços!</div>
-        <b class="angelita"><a href="./servicos.html">Serviços</a></b>
-      </div>
-      <div class="plano">
-        <div class="desc-plano">
-          O aplicativo proposto oferece atendimento por IA para diagnósticos
-          simplificados, reduzindo a dependência de mão de obra qualificada. Ao
-          enviar solicitar o envio da localização do veículo em caso de
-          problemas. O que agiliza o atendimento e aumenta a confiança do
-          cliente. A integração com o painel do carro torna o acesso aos
-          serviços mais conveniente, priorizando as necessidades do cliente e
-          digitalizando processos para maior eficiência e transparência.
-        </div>
-        <b class="sobre-plano">Sobre nosso plano</b>
-      </div>
-      <div class="nosso-site"
-      ><a href="https://www.portoseguro.com.br/" target="_blank">Nosso site</a> 
-    </div>
-    <div class="integrantes"> <a href="./integrantes.html ">Equipe Responsável</a></div>
+      <nav class="navigation">
+        <a href="index.html" class="active">Menu</a>
+        <a href="https://www.portoseguro.com.br/" target="_blank">Nosso Site</a>
+        <a href="./integrantes.html">Equipe</a>
+      </nav>
+    </header>
 
+    <section class="parallax">
+      <h2 id="text">Plano Porto Angel</h2>
+    </section>
+
+    <section class="article-placeholder">
+      <article>
+        <h2>Serviços</h2>
+        <p>
+          Com o Porto Angel, seu carro está sempre protegido. Detectamos
+          problemas técnicos e acionamos ajuda imediatamente. Em situações de
+          emergência, como acidentes, chamamos os serviços necessários
+          rapidamente. Sua tranquilidade ao dirigir é nossa prioridade absoluta.
+          Conte conosco a cada quilômetro para uma jornada tranquila e segura.
+        </p>
+        <a href="./servicos.html" class="button">Sobre</a>
+      </article>
+      <article>
+        <h2>Angelita</h2>
+        <p>
+          Conheça Angelita, a sua guarda-costas digital no trânsito! Angelita é
+          o cérebro por trás do aplicativo Porto Angel da Porto Seguro, pronta
+          para agir em qualquer situação de emergência. Com sua inteligência
+          artificial avançada, Angelita oferece um atendimento personalizado,
+          seja por texto ou voz, diretamente do seu painel multimídia.
+        </p>
+        <a href="./angelita.html" class="button">Sobre</a>
+      </article>
+    </section>
+
+    <section class="sec">
+      <h2>Sobre nosso plano</h2>
+      <p>
+        O aplicativo proposto oferece atendimento por IA para diagnósticos
+        simplificados, reduzindo a dependência de mão de obra qualificada. Ao
+        enviar solicitar o envio da localização do veículo em caso de problemas.
+        O que agiliza o atendimento e aumenta a confiança do cliente. A
+        integração com o painel do carro torna o acesso aos serviços mais
+        conveniente, priorizando as necessidades do cliente e digitalizando
+        processos para maior eficiência e transparência.
+      </p>
+    </section>
+
+    <footer class="footer">
+      <p>
+        <img src="./img/ajuda.png" alt="Icone" />
+        <a href="https://www.portoseguro.com.br/canal-de-ajuda" target="_blank"
+          >Perguntas Frequentes</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
