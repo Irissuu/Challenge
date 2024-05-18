@@ -1,158 +1,179 @@
-* {
-    font-family: sans-serif; 
-    box-sizing: border-box; 
-    margin: 0; 
-    padding: 0; 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body, html {
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(137, 198, 248), #f9f9f9); 
 }
 
-.rodape-servico {
-    position: absolute;
-    top: 945px;
-    left: 0px; 
-    background-color: #13293e;
-    width: 100%;
-    height: 79px;
-}
-
-.faixa-azul-servico {
-    position: absolute; 
-    top: -6px; 
-    left: 0px; 
-    background-color: #237b9f;
-    width: 100%; 
-    height: 613px;
-}
-
-.faixa-cinza-servico {
-    position: absolute;
-    top: 376px;
-    left: 0px;
-    background-color: #e7f1f2;
-    width: 100%; 
-    height: 570px;
-}
-
-.desc-emergencia-servico {
-    position: absolute; 
-    top: 130px; 
-    left: 100px; 
-    width: 50%; 
-    height: 50%; 
-    color: #000000;
-    font-size: 30px; 
-    text-align: center;
-}
-
-.emergencia-servico {
-    position: absolute; 
-    top: 20px;
-    left: 100.77px; 
-    right: 120px;
-    font-size: 40px; 
-    color: #237b9f; 
-    text-align: center; 
-    width: 50%; 
-    height: 50%; 
-}
-
-.emergencia {
-    position: absolute; 
-    top: 409px; 
-    left: 50%; 
-    width: 50%;
-    height: 50%;
-}
-
-.caixa-emergencia-servico {
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    border-radius: 55px; 
-    background-color: #ffffff; 
-    width: 70%; 
-    height: 491px;
-    display: flex; 
-}
-
-.caixa-assistencia-servico {
-    position: absolute;
-    top: 10px; 
-    right: 10px; 
-    border-radius: 55px; 
-    background-color: #ffffff; 
-    width: 70%; 
-    height: 491px; 
-}
-
-.desc-assistencia-servico {
-    position: absolute; 
-    top: 70px; 
-    right:100px;; 
-    width: 50%; 
-    height: 50%; 
-    color: #000000;
-    font-size: 30px; 
-    text-align: center;
-}
-
-.assistencia-servico {
-    position: absolute; 
-    top: 20px; 
-    right: 98.83px; 
-    font-size: 40px; 
-    color: #237b9f; 
-    text-align: center; 
-    width: 50%; 
-    height: 50%; 
-}
-
-.assistencia-tecnica {
-    position: absolute; 
-    top: 409px; 
-    left: 0px; 
-    border-radius: 55px; 
-    width: 50%; 
-    height: 50%; 
-    color: #000000; 
-}
-
-.desc-servicos {
-    position: absolute;
-        top: 208px;
-        left: 92px;
-        font-size: 30px;
-        color: #ffffff;
-}
-
-.servicos1 {
-    position: absolute;
-    top: 103px;
-    left: 92px;
-    font-size: 60px;
+header {
+    background-color: #00A1FC;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: #ffffff; 
 }
 
-.texto {
-    position: absolute;
-    top: 962px;
-    left: 95px;
+
+.logo {
+    color: #ffffff;
     font-size: 30px;
-    color: #ffffff; 
 }
 
-.seta-servico-icon {
-    position: absolute; 
-    top: 954px; 
-    left: 18px; 
-    width: 65px; 
-    height: 60px; 
-    object-fit: cover; 
+.navigation a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
 }
 
-.voltar-servico {
-    position: absolute; 
-    top: 954px; 
-    left: 18px; 
-    width: 315px; 
-    height: 60px; 
+.navigation a:hover, 
+.navigation a.active {
+    background: #0087d4;
+    color: #ffffff;
+}
+
+.parallax {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    padding: 10px 10px; 
+}
+
+
+.parallax h2 {
+    margin-bottom: 10px; 
+    font-size: 30px;
+    color: white;
+}
+
+
+.article-placeholder {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.article-placeholder h2 {
+    margin-bottom: 20px;
+}
+
+.article-placeholder article {
+    width: 45%; 
+    margin-right: 5%;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-placeholder article:last-child {
+    margin-right: 0;
+}
+
+.article-placeholder article .button {
+    width: auto; 
+    margin-top: auto; 
+}
+
+.sec {
+    padding: 50px 20px;
+    font-size: 16px;
+}
+
+.sec h2 {
+    margin-bottom: 20px;
+}
+
+.sec p {
+    line-height: 1.6;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #00A1FC;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #00A1FC;
+}
+
+footer {
+    background-color: #006495;
+    color: white;
+    padding: 0.1px; 
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+}
+
+.article-placeholder article .button {
+    display: block;
+    width: 60px;
+    text-align: center;
+    background-color: #00A1FC;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 100px; 
+    height: auto;
+    margin-right: 10px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        font-size: 20px;
+    }
+    
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .navigation a {
+        margin: 10px 0;
+    }
+    
+    .parallax h2 {
+        font-size: 25px;
+    }
+    
+    .article-placeholder article {
+        width: 100%;
+        margin-right: 0;
+    }
 }
