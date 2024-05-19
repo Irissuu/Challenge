@@ -53,9 +53,15 @@ main {
     margin: 10px;
     padding: 20px;
     text-align: center;
-    width: 30%; /* Tamanho ajustado */
-    display: inline-block; /* Alterado para inline-block */
+    width: 30%; 
+    display: inline-block;
     box-sizing: border-box;
+    transition: 0.3s ease; 
+}
+
+.member:hover {
+    background-color: #44444485; 
+    color: #ffffff; 
 }
 
 .member-image {
