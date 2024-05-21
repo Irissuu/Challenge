@@ -44,7 +44,7 @@ main {
     justify-content: space-around;
     align-items: flex-start;
     margin-top: 20px;
-    flex-wrap: wrap; /* Adicionado para permitir a quebra de linha dos itens */
+    flex-wrap: wrap; 
 }
 
 .member {
@@ -131,7 +131,6 @@ main {
     margin-right: 5px;
 }
 
-/* Adicionada media query para telas menores */
 @media (max-width: 768px) {
     main {
         flex-direction: column;
