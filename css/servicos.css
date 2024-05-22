@@ -184,36 +184,4 @@ footer a {
         width: 100%;
         margin-right: 0;
     }
-
-    .article-placeholder article {
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-    
-    .article-placeholder article h2 {
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-    
-    .article-placeholder article p {
-        font-size: 14px;
-        line-height: 1.4;
-    }
-
-    .article-placeholder article:last-child {
-        margin-right: 5%;
-    }
-
-    .article-placeholder article {
-        width: 45%; 
-    }
-
-    .article-placeholder article {
-        margin-right: 5%; 
-    }
-    .article-placeholder article:last-child {
-        margin-right: 0; 
-    }
 }
