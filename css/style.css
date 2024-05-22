@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 body, html {
     font-family: 'Poppins', sans-serif; 
     margin: 0;
@@ -130,17 +138,16 @@ footer a {
 }
 
 .article-placeholder article .button {
-    display: block;
-    width: 60px;
-    text-align: center;
-    background-color: #00A1FC;
-    color: white;
-    padding: 10px 20px;
+    width: 100px; 
+    margin-top: auto; 
+    padding: 10px 20px; 
     border-radius: 10px;
     text-decoration: none;
     margin-top: 10px;
     font-size: 15px;
+    display: inline-block; 
 }
+
 
 .logo-container {
     display: flex;
@@ -175,5 +182,37 @@ footer a {
     .article-placeholder article {
         width: 100%;
         margin-right: 0;
+    }
+
+    .article-placeholder article {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    
+    .article-placeholder article h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .article-placeholder article p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .article-placeholder article:last-child {
+        margin-right: 5%;
+    }
+
+    .article-placeholder article {
+        width: 45%; 
+    }
+
+    .article-placeholder article {
+        margin-right: 5%; 
+    }
+    .article-placeholder article:last-child {
+        margin-right: 0; 
     }
 }
