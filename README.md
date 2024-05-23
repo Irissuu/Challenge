@@ -24,4 +24,6 @@
 
 ## Figma
 > [!NOTE]
+> Integrantes XS contém Scroll behavior
+> 
 > Link: https://www.figma.com/file/tSOfBQlIIX5tr6JVyEweAu/Challenge?type=design&t=Bm78m7thQMo5djcD-6
