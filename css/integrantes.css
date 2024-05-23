@@ -10,6 +10,9 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #e7f1f2;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .container {
@@ -26,6 +29,7 @@ header {
     justify-content: space-between;
     align-items: center;
     color: #ffffff;
+    flex-wrap: wrap;
 }
 
 header img {
@@ -35,16 +39,18 @@ header img {
 
 header h1 {
     color: #ffffff;
-    font-size: 40px;
+    font-size: 32px;
     margin-top: 10px;
+    flex-grow: 1;
 }
 
 main {
+    flex: 1;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     margin-top: 20px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 .member {
@@ -54,15 +60,15 @@ main {
     margin: 10px;
     padding: 20px;
     text-align: center;
-    width: 30%; 
+    width: 30%;
     display: inline-block;
     box-sizing: border-box;
-    transition: 0.3s ease; 
+    transition: 0.3s ease;
 }
 
 .member:hover {
-    background-color: #44444485; 
-    color: #ffffff; 
+    background-color: #44444485;
+    color: #ffffff;
 }
 
 .member-image {
@@ -103,9 +109,9 @@ main {
 
 .footer {
     text-align: center;
-    margin-top: 50px;
     padding: 20px;
     background-color: #00A1FC;
+    margin-top: auto;
 }
 
 .footer p {
@@ -131,13 +137,56 @@ main {
     margin-right: 5px;
 }
 
-@media (max-width: 768px) {
-    main {
-        flex-direction: column;
-        align-items: center;
+@media (max-width: 1440px) {
+    header h1 {
+        font-size: 30px;
     }
-    
+
+    .member {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1100px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    .member {
+        width: 48%;
+    }
+}
+
+@media (max-width: 834px) {
+    header h1 {
+        font-size: 26px;
+    }
+
     .member {
         width: 80%;
+    }
+}
+
+@media (max-width: 744px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    .member {
+        width: 80%;
+    }
+}
+
+@media (max-width: 360px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    .member {
+        width: 90%;
+    }
+
+    .footer p a {
+        font-size: 14px;
     }
 }
