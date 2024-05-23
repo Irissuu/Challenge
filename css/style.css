@@ -31,6 +31,7 @@ header {
     font-size: 30px;
 }
 
+
 .navigation a {
     text-decoration: none;
     color: #ffffff;
@@ -73,7 +74,7 @@ header {
 }
 
 .article-placeholder article {
-    width: auto; 
+    width: 45%; 
     margin-right: 5%;
     margin-bottom: 20px;
     background-color: #ffffff;
@@ -137,17 +138,16 @@ footer a {
 }
 
 .article-placeholder article .button {
-    display: block;
-    width: 60px;
-    text-align: center;
-    background-color: #00A1FC;
-    color: white;
-    padding: 10px 20px;
+    width: 100px; 
+    margin-top: auto; 
+    padding: 10px 20px; 
     border-radius: 10px;
     text-decoration: none;
     margin-top: 10px;
     font-size: 15px;
+    display: inline-block; 
 }
+
 
 .logo-container {
     display: flex;
@@ -159,7 +159,6 @@ footer a {
     height: auto;
     margin-right: 10px;
 }
-
 
 
 @media only screen and (max-width: 768px) {

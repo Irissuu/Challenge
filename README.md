@@ -7,6 +7,10 @@
 > Melhorando a jornada e experiência do cliente no momento da manutenção automotiva.
 > Criando uma aplicação que identifique problemas de automóveis sem a intervenção humana.
 
+## Inicio!
+> [!NOTE]
+> Comece pelo arquivo de login!
+
 ## Integrantes e dados
 > [!NOTE]
 > Nome: Iris Tavares Alves
