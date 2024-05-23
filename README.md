@@ -1,11 +1,15 @@
 # Challenge
 
-## Projeto para Porto Seguro
+## Projeto Angel
 
 > [!NOTE]
 > Oferecendo um canal digital ágil e assertivo no diagnóstico do problema de um veículo sem a intervenção humana.
 > Melhorando a jornada e experiência do cliente no momento da manutenção automotiva.
 > Criando uma aplicação que identifique problemas de automóveis sem a intervenção humana.
+
+## Inicio!
+> [!NOTE]
+> Comece pelo arquivo de login!
 
 ## Integrantes e dados
 > [!NOTE]
@@ -17,3 +21,7 @@
 > 
 > Nome: Taís Tavares Alves
 > RM: 557553 Turma: 1TDSPM
+
+## Figma
+> [!NOTE]
+> Link: https://www.figma.com/file/tSOfBQlIIX5tr6JVyEweAu/Challenge?type=design&t=Bm78m7thQMo5djcD-6

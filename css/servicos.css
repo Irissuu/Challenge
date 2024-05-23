@@ -12,10 +12,10 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    background: linear-gradient(to bottom, rgb(137, 198, 248), #f9f9f9); 
+    background: linear-gradient(to bottom, rgb(137, 198, 248), #f9f9f9);
     background-size: cover; 
     background-repeat: no-repeat; 
-    background-position: center; 
+    background-position: center;  
 }
 
 header {
@@ -32,7 +32,6 @@ header {
     color: #ffffff;
     font-size: 30px;
 }
-
 
 .navigation a {
     text-decoration: none;
@@ -61,7 +60,7 @@ header {
 .parallax h2 {
     margin-bottom: 10px; 
     font-size: 30px;
-    color: #ffffff;
+    color: white;
 }
 
 
@@ -114,7 +113,7 @@ header {
     width: 100%;
     text-align: center;
     background-color: #00A1FC;
-    color: #ffffff;
+    color: white;
     padding: 10px 0;
     border-radius: 5px;
     text-decoration: none;
@@ -127,7 +126,7 @@ header {
 
 footer {
     background-color: #006495;
-    color: #ffffff;
+    color: white;
     padding: 0.1px; 
     text-align: center;
     position: fixed;
@@ -136,20 +135,21 @@ footer {
 }
 
 footer a {
-    color: #ffffff;
+    color: white;
 }
 
 .article-placeholder article .button {
-    width: 100px; 
-    margin-top: auto; 
-    padding: 10px 20px; 
+    display: block;
+    width: 60px;
+    text-align: center;
+    background-color: #00A1FC;
+    color: white;
+    padding: 10px 20px;
     border-radius: 10px;
     text-decoration: none;
     margin-top: 10px;
     font-size: 15px;
-    display: inline-block; 
 }
-
 
 .logo-container {
     display: flex;
@@ -161,6 +161,7 @@ footer a {
     height: auto;
     margin-right: 10px;
 }
+
 
 
 @media only screen and (max-width: 768px) {
