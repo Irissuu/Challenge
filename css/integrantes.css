@@ -137,6 +137,12 @@ main {
     margin-right: 5px;
 }
 
+.repository-link {
+    color: white;
+    margin-left: 10px;
+}
+
+
 @media (max-width: 1440px) {
     header h1 {
         font-size: 30px;
