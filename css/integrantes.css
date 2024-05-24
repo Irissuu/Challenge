@@ -137,9 +137,12 @@ main {
     margin-right: 5px;
 }
 
+.link-divider {
+    margin-left: 10px;
+}
+
 .repository-link {
     color: white;
-    margin-left: 10px;
 }
 
 
