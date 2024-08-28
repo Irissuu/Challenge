@@ -1,6 +1,6 @@
 # Challenge
 
-## Projeto Angel
+## NovaApex
 
 > [!NOTE]
 > Oferecendo um canal digital ágil e assertivo no diagnóstico do problema de um veículo sem a intervenção humana.
@@ -16,8 +16,6 @@
 > Nome: Iris Tavares Alves
 > RM: 557728 Turma: 1TDSPM
 > 
-> Nome: Mirela Pinheiro Silva Rodrigues
-> RM: 558191 Turma: 1TDSPM
 > 
 > Nome: Taís Tavares Alves
 > RM: 557553 Turma: 1TDSPM
