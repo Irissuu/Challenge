@@ -11,6 +11,7 @@ body {
     background-color: #f3f3f3;
     background-size: cover;
     background-position: center;
+    margin: 0;
 }
 
 .inicio {
@@ -40,14 +41,6 @@ body {
     font-size: 19px;
     margin-top: 20px;
     max-width: 800px; 
-}
-  
-body {
-    font-family: "Poppins", sans-serif;
-    background-color: #f3f3f3;
-    background-size: cover;
-    background-position: center;
-    margin: 0;
 }
 
 header {
@@ -129,15 +122,13 @@ header {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     padding: 5px;
-    text-align: center;
-    justify-content: column; 
-  }
-  
+    text-align: center; /* Fixed alignment */
+}
+
 .title h2 {
     margin-top: 10px;
-    justify-content: column; 
     color: #005383;
-  }
+}
 
 .zoe {
     background-color: #fdfcfc;
@@ -149,8 +140,9 @@ header {
     align-items: center; 
 }
 
-.zoe h2{
+.zoe h2 {
     margin-bottom: 10px;
+    color: #005383;
 }
 
 .zoe img {
@@ -161,12 +153,8 @@ header {
 }
 
 .zoe .text {
-   flex: 1;
-   text-align: center;
-}
-
-.zoe h2{
-    color: #005383;
+    flex: 1;
+    text-align: center;
 }
 
 .servicos {
@@ -179,7 +167,7 @@ header {
     align-items: center; 
 }
 
-.servicos h2{
+.servicos h2 {
     margin-bottom: 10px;
     color: #005383;
 }
@@ -192,17 +180,14 @@ header {
 }
 
 .servicos .text {
-   flex: 1;
-   text-align: center;
-}
-
-.text-marketing{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    flex: 1;
+    text-align: center;
 }
 
 .text-marketing {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -219,7 +204,6 @@ header {
 .text-marketing h2 {
     margin-bottom: 20px;
 }
-
 
 .text-marketing p {
     color: #ececec;
