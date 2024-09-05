@@ -1,13 +1,15 @@
-# Challenge
+<h2>→ Challenge FIAP 2024</h2>
 
-## NovaApex
+<h1 align="center">
+  NovaApex
+</h1> 
 
 > [!NOTE]
 > Oferecendo um canal digital ágil e assertivo no diagnóstico do problema de um veículo sem a intervenção humana.
 > Melhorando a jornada e experiência do cliente no momento da manutenção automotiva.
 > Criando uma aplicação que identifique problemas de automóveis sem a intervenção humana.
 
-## Inicio!
+## Início!
 > [!NOTE]
 > Comece pelo arquivo de login!
 
@@ -22,6 +24,6 @@
 
 ## Figma
 > [!NOTE]
-> Integrantes XS contém Scroll behavior
+> Contém Scroll behavior
 > 
 > Link: https://www.figma.com/file/tSOfBQlIIX5tr6JVyEweAu/Challenge?type=design&t=Bm78m7thQMo5djcD-6
