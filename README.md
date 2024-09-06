@@ -5,9 +5,10 @@
 </h1> 
 
 > [!NOTE]
-> Oferecendo um canal digital ágil e assertivo no diagnóstico do problema de um veículo sem a intervenção humana.
+> Criando uma aplicação que identifique problemas de automóveis sem a intervenção humana,
+> oferecendo um canal digital ágil e assertivo no diagnóstico do problema.
 > Melhorando a jornada e experiência do cliente no momento da manutenção automotiva.
-> Criando uma aplicação que identifique problemas de automóveis sem a intervenção humana.
+
 
 ## Início!
 > [!NOTE]
