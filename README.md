@@ -10,11 +10,7 @@
 > Melhorando a jornada e experiência do cliente no momento da manutenção automotiva.
 
 
-## Início!
-> [!NOTE]
-> Comece pelo arquivo de login!
-
-## Integrantes e dados
+## ✧Integrantes e dados
 > [!NOTE]
 > Nome: Iris Tavares Alves
 > RM: 557728 Turma: 1TDSPM
@@ -23,7 +19,7 @@
 > Nome: Taís Tavares Alves
 > RM: 557553 Turma: 1TDSPM
 
-## Figma
+## ✧Figma
 > [!NOTE]
 > Contém Scroll behavior
 > 
