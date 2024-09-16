@@ -19,8 +19,15 @@
 > Nome: Taís Tavares Alves
 > RM: 557553 Turma: 1TDSPM
 
-## ✧Figma
+## ✧Projeto
 > [!NOTE]
-> Contém Scroll behavior
+> Figma: Contém Scroll behavior<br>
+> <a href="https://www.figma.com/file/tSOfBQlIIX5tr6JVyEweAu/Challenge?type=design&t=Bm78m7thQMo5djcD-6">Projeto Figma</a> 
 > 
-> Link: https://www.figma.com/file/tSOfBQlIIX5tr6JVyEweAu/Challenge?type=design&t=Bm78m7thQMo5djcD-6
+> <a href="###">Vídeo</a>
+
+## ✿ Notas ദ്ദി(｡•̀ ᗜ^)
+> [!NOTE]
+> Elementos Interativos: Login e Cadastro
+> 
+>
