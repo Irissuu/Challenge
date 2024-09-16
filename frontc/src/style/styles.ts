@@ -20,3 +20,24 @@ export const CabecalhoContainer = styled.header`
     text-align: left;
   }
 `
+
+// Menu
+export const MenuContainer = styled.nav`
+  display: flex;
+  gap: 15px;
+  font-size: 25px;
+  
+  p {
+    margin: 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+`
