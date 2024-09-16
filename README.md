@@ -21,7 +21,7 @@
 
 ## ✧Projeto
 > [!NOTE]
-> Figma: Contém Scroll behavior<br>
+> Figma: ⚠️ Contém Scroll behavior ⚠️<br> 
 > <a href="https://www.figma.com/file/tSOfBQlIIX5tr6JVyEweAu/Challenge?type=design&t=Bm78m7thQMo5djcD-6">Projeto Figma</a> 
 > 
 > <a href="###">Vídeo</a>
