@@ -24,7 +24,7 @@
 > Figma: ⚠️ Contém Scroll behavior ⚠️<br> 
 > <a href="https://www.figma.com/file/tSOfBQlIIX5tr6JVyEweAu/Challenge?type=design&t=Bm78m7thQMo5djcD-6">Projeto Figma</a> 
 > 
-> <a href="###">Vídeo</a>
+> <a href="https://youtu.be/mYZX_WBwmF4?si=-j71pHrknEl5sjfZ">Vídeo</a>
 
 ## ✿ Notas ദ്ദി(｡•̀ ᗜ^)
 > [!NOTE]
