@@ -41,3 +41,8 @@ export const MenuContainer = styled.nav`
     }
   }
 `
+
+// Rodapé
+export const RodapeContainer = styled.footer`
+ 
+`
