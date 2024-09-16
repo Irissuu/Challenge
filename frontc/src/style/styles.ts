@@ -3,7 +3,6 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
 
-
   body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -218,5 +217,122 @@ export const MarketingSection = styled.section`
       }
     }
   }
+`
+
+// Equipe
+export const EquipeContainer = styled.section`
+  width: 100%;
+  min-height: 100vh;
+  background-color: #73B7D0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+`
+
+export const EquipeContent = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  gap: 30px;
+  flex-wrap: wrap;
+`
+
+export const EquipeInfo = styled.div`
+  max-width: 400px;
+  color: #fff;
+`
+
+// Botões equipe
+export const EquipeBtns = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+`
+
+// Botão repositório
+export const RepoBtn = styled.a`
+  background-color: #2C7E9C;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px;
+  width: 100%;
+  text-align: center;
+
+  &:hover {
+    background-color: #436886;
+  }
+`
+
+// Botão voltar
+export const VoltarBtn = styled.a`
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+  img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+`
+
+// Integrantes
+export const Integrantes = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: flex-end;
+`
+
+// Estilização cada integrante
+export const Integrante = styled.div`
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 340px;
+  width: 180px;
+  margin: 10px;
+
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+  h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #000;
+  }
+  .link {
+    margin-top: 10px;
+
+
+      img {
+        width: 25px;
+        height: 25px;
+      }
+    
+  }
+
 `
 
