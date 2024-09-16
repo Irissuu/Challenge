@@ -336,3 +336,85 @@ export const Integrante = styled.div`
 
 `
 
+// Autentificação login e cadastro
+export const AuthContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #73B7D0;
+`
+
+export const AuthTitle = styled.h1`
+  color: #fff;
+  position: center;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+`
+
+export const AuthInputBox = styled.div`
+  position: relative;
+  width: 100%;
+  margin: 10px 0;
+`
+
+export const AuthInput = styled.input`
+  width: 100%;
+  padding: 25px 25px;
+  border-radius: 10px;
+  border: none;
+`
+
+export const AuthIcon = styled.i`
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+`
+
+export const AuthButtonContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  width: 100%;
+`
+
+export const AuthButton = styled.button`
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color:  #2C7E9C;
+  color: #fff;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #436886;
+  }
+`
+
+export const AuthSwitch = styled.p`
+  margin-top: 10px;
+  cursor: pointer;
+  color: #2C7E9C;
+`
+
+
+// Para interativos
+export const ErrorText = styled.p`
+  color: #FF0000;
+  margin-bottom: 10px;
+  font-size: 14px;
+`
+
+export const SuccessMessage = styled.p`
+  color: #008000;
+  font-size: 16px;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 10px;
+  white-space: pre-line;
+`
+
+
