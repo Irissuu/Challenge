@@ -28,6 +28,6 @@
 
 ## ✿ Notas ദ്ദി(｡•̀ ᗜ^)
 > [!NOTE]
-> Elementos Interativos: Login e Cadastro
+> Elementos Interativos: Login, Cadastro e Registrar Veículo
 > 
 >
