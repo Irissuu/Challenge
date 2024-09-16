@@ -44,5 +44,13 @@ export const MenuContainer = styled.nav`
 
 // Rodapé
 export const RodapeContainer = styled.footer`
- 
+  background-color: #2C7E9C;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  position: flex;
+  
+  p {
+    color: #fff;
+  }
 `
