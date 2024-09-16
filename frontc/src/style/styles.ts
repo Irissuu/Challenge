@@ -400,6 +400,68 @@ export const AuthSwitch = styled.p`
   color: #2C7E9C;
 `
 
+//Registrar veículo
+export const VeiculoContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #73B7D0;
+`
+
+export const VeiculoForm = styled.form`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+`
+
+export const VeiculoTitle = styled.h1`
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #436886;
+`
+
+export const VeiculoDescription = styled.p`
+  text-align: center; 
+  font-size: 17px;
+  margin-bottom: 20px;
+  color: #000;
+`
+
+export const VeiculoCadInput = styled.input`
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 15px;
+  box-sizing: border-box;
+
+`
+
+export const ReVeiculoBtn = styled.button`
+  padding: 10px 20px;
+  background-color: #2C7E9C;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #436886;
+  }
+`
 
 // Para interativos
 export const ErrorText = styled.p`
