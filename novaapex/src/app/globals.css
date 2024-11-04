@@ -183,4 +183,60 @@
     @apply rounded-full mb-3;
 }
 
+.oficinas {
+    @apply min-h-screen flex items-center justify-center bg-[#73B7D0] p-4;
+}
+
+.oficinasbase {
+    @apply flex flex-col md:flex-row items-center justify-center w-full max-w-4xl space-y-8 md:space-y-0 md:space-x-8;
+}
+
+.agendarbase {
+    @apply w-full md:w-1/2 bg-white p-8 shadow-md rounded-lg;
+
+    h2 {
+        @apply text-2xl font-semibold mb-6 text-center;
+    }
+
+    & form {
+        @apply space-y-4;
+    }
+
+    & label {
+        @apply block text-gray-700 text-sm font-bold mb-2;
+    }
+}
+
+.inputagen {
+    @apply w-full p-2 border rounded;
+}
+
+.btnagendamento {
+    @apply w-full text-white py-2 rounded bg-[#2C7E9C] hover:bg-[#436886];
+}
+
+.btnvoltaragen {
+    @apply ml-2 flex items-center text-[#2C7E9C] hover:text-[#436886];
+}
+
+.oficinasdispo {
+    @apply w-full md:w-1/2;
+
+    h2 {
+        @apply text-2xl font-semibold mb-4 text-center text-white;
+    }
+
+    & h3 {
+        @apply font-semibold text-lg;
+    }
+}
+
+.oficinasdispokey {
+    @apply bg-white p-4 border rounded shadow-md;
+
+    h3 {
+        @apply font-semibold text-lg;
+    }
+}
+
 }
