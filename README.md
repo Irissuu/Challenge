@@ -31,7 +31,7 @@
 > 
 > <a href="https://youtu.be/gFoFjoyVRKg?si=nclvbF_gvc8R-b9T">Vídeo</a>
 >
-> 
+> <a href="https://novaapex-smoky.vercel.app/">Deploy Vercel</a>
 
 ## ✧ Notas Usuário
 > [!NOTE]
