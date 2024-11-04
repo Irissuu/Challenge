@@ -26,4 +26,89 @@
   .error {
     @apply text-xl;
   }
+
+  .apex {
+    @apply text-center mb-8 bg-[#73B7D0] py-8;
+}
+
+.apexback {
+    @apply mx-auto max-w-4xl;
+
+    h1 {
+        @apply text-4xl font-bold text-white;
+    }
+
+    & p {
+        @apply mt-4 text-lg text-white;
+    }
+}
+
+.resourcesec {
+    @apply mb-8;
+
+    h2 {
+        @apply text-2xl font-semibold text-center;
+    }
+}
+
+.resourcegrid {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 max-w-7xl mx-auto;
+}
+
+.insidegrid1 {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 max-w-7xl mx-auto;
+}
+
+.insidegrid2 {
+    @apply flex flex-col items-center p-4 border rounded-lg;
+
+    p {
+        @apply text-center text-base mt-4;
+    }
+}
+
+.iazoesec {
+    @apply mb-8 flex flex-col md:flex-row items-center max-w-7xl mx-auto;
+}
+
+.textparam {
+    @apply text-center md:text-left;
+
+    h2 {
+        @apply text-2xl font-semibold text-[#436886];
+    }
+
+    & p {
+        @apply mt-4 text-lg;
+    }
+}
+
+.mechanicsec {
+    @apply mb-8 flex flex-col md:flex-row-reverse items-center max-w-7xl mx-auto;
+}
+
+.joinsec {
+    @apply text-center bg-[#73B7D0] py-8;
+}
+
+.joinsize {
+    @apply mx-auto max-w-2xl;
+
+    h2 {
+        @apply text-2xl font-semibold text-white;
+    }
+
+    & p {
+        @apply mt-4 text-white text-lg;
+    }
+
+    & h3 {
+        @apply text-xl font-semibold text-white;
+    }
+}
+
+.btnequipe {
+    @apply mt-2 inline-block px-4 py-2 bg-[#2C7E9C] hover:bg-[#436886] text-white rounded;
+}
+
 }
