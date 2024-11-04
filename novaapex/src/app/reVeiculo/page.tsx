@@ -97,6 +97,7 @@ export default function ReVeiculo() {
         </div>
       </div>
     </div>
+    {/*mudei o nome da pasta, medo de não ir então estou cometando para dar commit*/}
       <Rodape />
       </div>
   );
