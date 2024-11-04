@@ -40,7 +40,7 @@ export default function Auth() {
           });
 
           if (response.ok) {
-            const data = await response.json();
+            await response.json();
             alert("Login realizado com sucesso!");
             navigate.push('/home'); 
           } else {
