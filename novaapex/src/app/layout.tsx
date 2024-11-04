@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "NovaApex",
-  description: "Desenvolvido por equipe desenvolvedora responsável por NovaApex",
+  description: "Equipe desenvolvedora responsável por NovaApex",
 };
 
 export default function RootLayout({
