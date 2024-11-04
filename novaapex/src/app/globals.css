@@ -22,4 +22,8 @@
   .rodape {
     @apply text-white text-lg justify-end p-2 items-center text-center bg-[#2C7E9C];
   }
+
+  .error {
+    @apply text-xl;
+  }
 }
