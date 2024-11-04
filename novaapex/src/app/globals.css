@@ -27,6 +27,30 @@
     @apply text-xl;
   }
 
+  .auth {
+    @apply flex flex-col items-center justify-center min-h-screen bg-[#73B7D0] p-4;
+
+    h1 {
+        @apply text-2xl font-bold mb-4 text-white;
+    }
+
+    & form {
+        @apply bg-white p-6 rounded-lg shadow-md w-full max-w-sm;
+    }
+}
+
+.bordauth {
+    @apply border p-2 w-full rounded;
+}
+
+.btnenter {
+    @apply text-white bg-[#2C7E9C] hover:bg-[#436886] py-2 rounded w-full;
+}
+
+.btncreate {
+    @apply text-center mt-4 cursor-pointer text-[#2C7E9C] hover:text-[#436886];
+}
+
   .apex {
     @apply text-center mb-8 bg-[#73B7D0] py-8;
 }
