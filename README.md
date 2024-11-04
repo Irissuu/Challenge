@@ -1,16 +1,23 @@
-<h2>→ Challenge FIAP 2024</h2>
+<h2>→ Challenge FIAP & Porto Seguro 2024</h2>
 
 <h1 align="center">
   NovaApex
 </h1> 
 
+<img align="right" alt="novaapex" width="200" src="https://github.com/user-attachments/assets/1709894d-5bdc-48da-a828-6e739f62edae">
+
 > [!NOTE]
+> NovaApex é uma plataforma que utiliza inteligência artificial para simplificar diagnósticos automotivos,
+> agendamento com de oficinas parceiras, com foco em aumentar a eficiência e a transparência dos diagnósticos,
+> proporcionando uma experiência mais prática e confiável para os usuários.
+> 
 > Criando uma aplicação que identifique problemas de automóveis sem a intervenção humana,
 > oferecendo um canal digital ágil e assertivo no diagnóstico do problema.
 > Melhorando a jornada e experiência do cliente no momento da manutenção automotiva.
+> 
 
 
-## ✧Integrantes e dados
+## ✧ Integrantes e dados
 > [!NOTE]
 > Nome: Iris Tavares Alves
 > RM: 557728 Turma: 1TDSPM
@@ -19,15 +26,15 @@
 > Nome: Taís Tavares Alves
 > RM: 557553 Turma: 1TDSPM
 
-## ✧Projeto
+## ✧ Projeto
 > [!NOTE]
-> Figma: ⚠️ Contém Scroll behavior ⚠️<br> 
-> <a href="https://www.figma.com/file/tSOfBQlIIX5tr6JVyEweAu/Challenge?type=design&t=Bm78m7thQMo5djcD-6">Projeto Figma</a> 
 > 
-> <a href="https://youtu.be/UdZrquxjcJo?si=LMOfaJ_AM-yRuLaP">Vídeo</a>
+> <a href="https://youtu.be/gFoFjoyVRKg?si=nclvbF_gvc8R-b9T">Vídeo</a>
+>
+> 
 
-## ✿ Notas ദ്ദി(｡•̀ ᗜ^)
+## ✧ Notas Usuário
 > [!NOTE]
-> Elementos Interativos: Login, Cadastro e Registrar Veículo
+> Elementos Interativos: Cadastro, Login, Registrar Veículo e Agendar com Oficina Parceira!
 > 
 >
