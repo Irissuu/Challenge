@@ -34,5 +34,23 @@
 ## ✧ Notas Usuário
 > [!NOTE]
 > Elementos Interativos: Cadastro, Login, Registrar Veículo e Agendar com Oficina Parceira!
-> 
->
+
+## ➤ Para Executar o Projeto
+1. Abra o terminal do visual studio code <br/>
+2. Navegue até o diretório <br/>
+```
+cd novaapex
+```
+<br/>
+
+3. Instale as dependencias <br/>
+```
+npm i
+```
+<br/>
+
+4. Para visualizar o projeto execute <br/>
+```
+npm run dev
+```
+<br/>
